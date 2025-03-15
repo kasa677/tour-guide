@@ -1,0 +1,193 @@
+.dashboard_main {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.15);
+    padding: 30px 0px;
+    border-radius: 5px;
+}
+.profile_img {
+    position: relative;
+    text-align: center;
+}
+.edit_icon{
+    position: absolute;
+}
+.edit_icon_main {
+    position: absolute;
+    left: 149px;
+    bottom: 28px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--label-text);
+    color: #fff;
+    padding: 16px;
+}
+.edit_icon {
+    position: absolute;
+    left: 10px;
+    bottom: 9px;
+}
+.profile_img img {
+    width: 100%;
+    max-width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.breadcomb_profile_main {
+    padding: 30px 0px;
+    background: #fff;
+}
+.profile_main_txt {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--all-text-main);
+}
+.profile_txt {
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--second-para);
+    font-style: normal;
+}
+.profile_title {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+.location_birth_txt_main {
+    text-align: center;
+}
+.location_birth_txt_main {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.location_birth_txt_main .location_icon {
+    font-size: 11px;
+    color: var(--second-para);
+    margin-right: 5px;
+    font-weight: 700;
+}
+.location_birth_txt_main .location_txt {
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 5px;
+    color: var(--second-para);
+}
+.location_birth_txt_main .fa-cake-candles {
+    font-size: 11px;
+    color: var(--second-para);
+    margin-right: 5px;
+    font-weight: 700;
+}
+.location_birth_txt_main .date_txt {
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 5px;
+    color: var(--second-para);
+}
+.tabs_main {
+    display: flex;
+    flex-direction: column;
+}
+.tabs_main li.active a {
+   
+    border: 1px solid transparent !important;
+    color: #fff !important;
+    background: var(--label-text) !important;
+    border-radius: 0px !important;
+    margin:10px 0px;
+}
+.tabs_main li {
+    text-align: center!important;
+}
+
+.tabs_main li a {
+    font-size: 14px!important;
+    font-weight: 300!important;
+    color: var(--all-text-main)!important;
+    text-align: center!important;
+   
+}
+.tabs_main li a:hover {
+    background: var(--label-text) !important;
+    border:1px solid transparent!important;
+    color: #fff !important;
+    border-radius: 0px !important;
+}
+.width_flex {
+    display: flex;
+    flex-direction: column;
+}
+.personal_info {
+    color: var(--all-text-main);
+    font-size: 20px;
+    font-weight: 600;
+}
+.persnal_fo_lab {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--all-text-main);
+}
+.per_in {
+    background: #F4F4F5;
+    border: transparent;
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+.save_btn {
+    background: var(--border-color);
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px;
+}
+.travel_title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    background: var(--border-color);
+    padding: 5px 10px;
+}
+.UserBookingfilter {
+    margin-top: 12px;
+}
+.table > thead > tr > th {
+    vertical-align: middle;
+    border: 1px solid var(--border-color)!important;
+    text-align: center;
+}
+.des_droup input, .des_droup select {
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.news_row_main {
+    margin-top: 10px;
+}
+.guest_btn {
+    background: var(--btn-bg);
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 500;
+    width: 150px;
+    color:var(--all-text-main);
+    padding: 5px 0px;
+}
+.guest_cancel {
+    background: var(--border-color)!important;
+    color: #fff!important;
+}
+.table-bordered>tbody>tr>td {
+    border: 1px solid var(--border-color);
+    text-align: center;
+}
+input:focus-visible {
+    border: 1px solid var(--border-color)!important;
+}

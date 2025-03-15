@@ -1,0 +1,236 @@
+.breadcrumb_sort_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bread_crumb .bread_crumb_title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--all-text-main);
+    font-family: initial;
+}
+.bread_crumb_txt {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--second-para);
+}
+.srt_by_main {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.pop_drop {
+    width: 310px;
+    background: var(--sort-back);
+}
+.sort {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+.avilability_main {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.avila_title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--all-text-main);
+}
+.form label {
+    font-weight: 400;
+    font-size: 15px;
+     margin-bottom: 10px!important; 
+    color: var(--all-text-main);
+}
+.date_input_main {
+    position: relative;
+}
+.from_calender {
+    position: absolute;
+    right: 15px;
+    bottom: 9px;
+    font-size: 17px;
+}
+.to_label {
+   
+    margin-top: 10px;
+}
+.check_btn {
+    background: var(--coomon-btn);
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 3px;
+    font-weight: 400;
+}
+.theme_title_main {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.check_txt_main {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.check_txt {
+    font-size: 15px;
+    color: var(--check-txt);
+    font-weight: 400;
+}
+.show_more_txt {
+    text-align: center;
+    color: var(--label-text);
+    font-size: 14px;
+    font-weight: 400;
+}
+.check_txt_main input[type=checkbox]:focus {
+    color: var(--btn-bg)!important;
+    border: 2px solid var(--label-text)!important;
+    background-color: transparent!important;
+}
+input[type="checkbox" i]:focus-visible{
+    outline-offset: 2px solid var(--label-text)!important;
+    background-color: transparent!important;
+}
+.img_txt_price_main {
+    display: flex;
+    column-gap: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.txtprice_main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.transport_faimly_icon {
+    display: flex;
+    column-gap: 30px;
+}
+.icon_txt_main {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+.list_mains{
+    margin-top: 30px;
+}
+.water_btn_reviw_main .water_btn{
+    border-radius: 20px!important;
+    width: 180px;
+    padding: 5px!important;
+    text-transform: uppercase;
+}
+.water_btn_reviw_main {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.list_title {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: var(--all-text-main);
+}
+.icon_txt {
+    color: var(--all-text-main);
+}
+.fa-solid.fa-clock {
+    color: var(--all-text-main);
+}
+.fa-solid .fa-users {
+    color: var(--all-text-main);   
+}
+.price_main {
+    padding: 0px 30px;
+    margin-top: 50px;
+}
+.price {
+    color: var(--label-text);
+    font-size: 25px;
+    font-weight: 700;
+}
+.person_txt {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--second-para);
+}
+.list_img img {
+    object-fit: cover;
+    width: 100%;
+    height: 140px;
+    border-radius: 3px;
+}
+@media(max-width:991px) {
+    .price_main {  
+        margin-top: 75px;
+    }
+    .price {
+        font-size: 20px;
+    }
+    
+    
+}
+@media (max-width:767px) {
+    .txtprice_main {
+    
+        flex-direction: column;
+    }
+    .price_main {
+        margin-top: 0px;
+        text-align: end;
+    }
+    .price {
+        font-size: 14px;
+    }
+    .list_review_main {
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    .check_btn {
+          font-size: 12px;
+    }
+    .water_btn_reviw_main .water_btn {
+        white-space: nowrap;
+        width: 127px;      
+    }
+    .list_title {
+        font-size: 16px;
+        line-height: 7px;
+    }
+    
+.img_txt_price_main {
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.bread_crumb .bread_crumb_title {
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+.breadcrumb_sort_main {
+    align-items: flex-start;
+    flex-direction: column;
+}
+.avila_title {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.check_txt {
+    font-size: 12px;
+}
+}
